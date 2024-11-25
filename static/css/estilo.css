@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header, footer{
+    width: 100vw;
+    height: 10vh;
+    background-color: rgb(185, 75, 126);
+    display: flex;
+    gap: 10vw;
+}
+
+.esquerda{
+    display: flex;
+    align-items: center;
+}
+
+.direita{
+    display: flex;
+    align-items: center;
+}
+
+.container{
+    width: 100vw;
+    min-height: 80vh;
+    padding-top: 5vh;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2vh;
+}
+
+table, thead, tbody{
+    width: 80%;
+}
+
+tr, li{
+    width: 100%;
+    min-height: 6vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid black;
+}
+
+th, td{
+    width: 15vw;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.btn{
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 1.5tem;
+    margin: 2px;
+    font-weight: 600;
+}
+
+.btn:hover{
+    text-decoration: none;
+    background-color: rgba(255, 0, 140, 0.751);
+}
+
+.btnv{
+    text-decoration: none;
+    background-color: rgba(255, 10, 10, 0.836);
+    color: rgb(0, 0, 0);
+    padding: 2px;
+    margin: 2px;
+    border-radius: 10px;
+    border: none;
+}
+
+.btnv:hover{
+    text-decoration: none;
+    background-color: rgba(255, 0, 0, 1);
+    color: rgb(0, 0, 0);
+    padding: 2px;
+    margin: 2px;
+    border-radius: 10px;
+    border: none;
+}
+
+ul{
+    list-style: none;
+}
+
+form{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1vh;
+}
+
+form>p{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.logo{
+    width: 20vw;
+    height: 10vh;
+}
+
+.btnacesso{
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
